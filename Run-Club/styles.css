@@ -1,0 +1,114 @@
+html {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-family: "Lora", serif;
+  background-color: lightsalmon;
+}
+
+.bar {
+  padding-top: 1rem;
+
+  color: salmon;
+  background-color: teal;
+}
+
+.header-links li {
+  color: lightsalmon;
+  padding: 0.5rem 1.5rem;
+  margin-right: 1.5rem;
+  display: inline-block;
+}
+
+.intro {
+  /* background-image: url("https://content.codecademy.com/PRO/independent-practice-projects/responsive-meetup-page/img/runner-splash.jpg"); */
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  height: 30rem;
+  padding-top: 1rem;
+}
+
+.intro h2 {
+  margin-top: 10rem;
+  font-size: 2rem;
+  background-color: rgba(0.5, 0.5, 0.5, 0.5);
+  color: coral;
+  text-align: center;
+  padding: 2rem;
+}
+
+.summary {
+  text-align: left;
+  height: 15rem;
+}
+.summary h3 {
+  font-size: 1.5rem;
+  color: yellow;
+}
+.summary p {
+  color: white;
+}
+
+.photo-library {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.photo-library img {
+  height: 300px;
+  margin: 1%;
+}
+
+.review {
+  height: 20rem;
+  padding: 0 1rem;
+  padding-top: 1rem;
+  text-align: left;
+  color: yellow;
+  background-color: teal;
+}
+.review h1 {
+  font-size: 2.5rem;
+}
+
+.testimony {
+  text-align: center;
+  min-height: 200px;
+}
+.testimony h3 {
+  color: yellow;
+  font-size: 2.5rem;
+}
+.testimony p {
+  color: yellow;
+  font-size: 2rem;
+}
+.testimony img {
+  width: 50%;
+  height: auto;
+}
+@media only screen and (max-width: 500px) {
+  .bar {
+    width: 100%;
+    list-style-type: none;
+  }
+
+  .header-links li {
+    display: block;
+    text-align: center;
+  }
+
+  .summary {
+    text-align: center;
+  }
+  .review {
+    text-align: center;
+    width: 50%;
+    height: 10rem;
+    font-size: 1rem;
+  }
+  .review h1 {
+    font-size: 1.5rem;
+  }
+}
